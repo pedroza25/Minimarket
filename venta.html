@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Venta</title>
+    <link rel="stylesheet" href="stilos6.css">
+    <link rel="stylesheet" type="text/css" href="venta.css" />
+
+</head>
+<body>
+    <div class="container">
+        <h1>Minimarket</h1>
+        <h2>Registrar Venta</h2>
+        <div class="search-form">
+            <div class="form-group">
+                <label for="codigo">Código:</label>
+                <div class="input-group">
+                   
+                    <input type="text" id="codigo" name="codigo" placeholder="Buscar...">
+                    <button type="submit"><i class="fa fa-search"aria-hidden="true"></i></button> 
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <div class="input-group">
+                    <input type="text" id="nombre" name="nombre" placeholder="Buscar...">
+                    <button type="button"><i class="fa fa-search"aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="cantidad">Cantidad:</label> 
+                <input type="number" id="cantidad" name="cantidad"> <img src="carro-de-la-compra.png" alt="carrito de compra" width="70">
+            </div>
+            
+           
+        </div>
+        <button type="button" class="register-button">Registrar</button>
+        <button type="button" class="clear-button">Limpiar</button>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cantidad</th>
+                        <th>Descripción Producto</th>
+                        <th>Precio Unitario</th>
+                        <th>Precio Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

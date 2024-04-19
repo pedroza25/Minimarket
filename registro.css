@@ -1,0 +1,93 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff; 
+}
+
+/* Estilos generales */
+body {
+    font-family: "Open sans";
+    background-color: rgb(240, 240, 235);
+}
+
+/* Contenedor principal */
+.register-product-container {
+    width: 350px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(15, 50, 72, 0.3);
+    border-radius: 5px;
+}
+
+/*--IMAGEN-DE-FONDO--------------*/
+body {
+    background-image: url(mercado.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 15px;
+}
+
+/* Títulos */
+.register-product-container h2 {
+    color: #fcfeff;
+    margin-bottom: 20px;
+}
+
+.register-product-container h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Grupos de formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Grupo de botones */
+.button-group {
+    text-align: center;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de Guardar */
+.button-group button[type="submit"] {
+    background-color: #1b1438;
+    color: white;
+}
+
+/* Estilos para el botón de Salir */
+.button-group button.exit-button {
+    background-color: #7cb1f1;
+    color: white;
+}
+
+.button-group button.exit-button:hover {
+    background-color: #7cb1f1;
+}
+
+
+
